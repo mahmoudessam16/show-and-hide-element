@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.container {
+    margin: 30px;
+    text-align: center;
+    width: 400px;
+    height: 200px;
+    border-radius: 6px;
+}
+.container button {
+    margin: 30px;
+    padding: 7px 20px;
+    background-color: #029684;
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: inherit;
+    cursor: pointer;
+}
+.container p {
+    background-color: #aaa;
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: inherit;
+    font-size: 20px;
+}
+.display {
+    display: none;
+}
